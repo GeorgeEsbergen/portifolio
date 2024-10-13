@@ -3,7 +3,7 @@ document.querySelector('.download-cv').addEventListener('click', () => {
     // Create a new link element
     const link = document.createElement('a');
     link.href = 'https://roadmap.sh/pdfs/roadmaps/frontend.pdf'; // Replace with your CV URL
-    link.download = 'George Esbergen Sedky CV.pdf';
+    link.download = 'George_CV.pdf';
     link.click();
 });
 
