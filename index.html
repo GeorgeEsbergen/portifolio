@@ -11,46 +11,152 @@
 </head>
 
 <body style="background-color: #000000;">
-    <!-- Header Section -->
+    <!-- Header Section ------------------------------------------------>
     <header>
         <nav class="nav-bar">
             <div class="nav-links">
                 <a href="#home" class="nav-link">Home</a>
+                <a href="#about-me" class="nav-link">About Me</a>
+                <a href="#experience" class="nav-link">Experience</a>
                 <a href="#projects" class="nav-link">Projects</a>
-                <a href="#volunteering" class="nav-link">Volunteering</a>
                 <a href="#skills" class="nav-link">Skills</a>
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#volunteering" class="nav-link">Volunteering</a>
+                <a href="#footer" class="nav-link">Contact</a>
             </div>
         </nav>
     </header>
-    <!-- Hero Section -->
+    <!-- Hero Section ------------------------------------------------>
     <section id="home" class="hero">
-        <div class="container">
-            <h1>Welcome to my portfolio!</h1>
-            <a href="https://git.io/typing-svg" style="text-align: center;"><img
-                    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=The+five+boxing+wizards+jump+quickly"
-                    alt="Typing SVG" /></a>
-            <p>I'm George Esbergen Sedky, a software engineer and machine learning enthusiast.</p>
-            <button class="download-cv"
-                style="width: 150px; color: red; border: 1px solid red; background-color: transparent; border-radius: 5px; height: 40px;">
-                <a href="https://roadmap.sh/pdfs/roadmaps/frontend.pdf" download="George Esbergen Sedky CV.pdf" style="color: red;">Download
-                    CV</a>
-            </button>
-
-
-        </div>
-        <div class="nav-logo">
-            <img src="assets/my image.jpg" alt="Profile Picture" class="profile-picture">
+        <div class="row">
+            <div class="container">
+                <h1>Welcome to my portfolio!</h1>
+                <a href="https://git.io/typing-svg" style="text-align: center;"><img
+                        src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=The+five+boxing+wizards+jump+quickly"
+                        alt="Typing SVG" /></a>
+                <p>I'm George Esbergen Sedky, a software engineer and machine learning enthusiast.</p>
+                <button class="download-cv"
+                    style="width: 150px; color: red; border: 1px solid red; background-color: transparent; border-radius: 5px; height: 40px;">
+                    <a href="https://roadmap.sh/pdfs/roadmaps/frontend.pdf" download="George Esbergen Sedky CV.pdf"
+                        style="color: red;">Download
+                        CV</a>
+                </button>
+            </div>
+            <div class="nav-logo">
+                <img src="assets/my image.jpg" alt="Profile Picture" class="profile-picture">
+            </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+
+
+    <!--About Me  Section ---------------------------------------------->
+    <section id="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>As a mobile app developer, I have extensive experience in
+                designing and
+                developing scalable,
+                efficient, and user-friendly mobile applications using Flutter. My expertise includes [list your
+                skills, e.g., Dart, Firebase, etc.]. I'm always excited to take on new challenges and explore
+                the
+                latest trends in mobile app development.</p>
+
+            <div class=" row">
+                <img src="assets\images\mobile-app-development.gif" alt="Flutter Icon" class="icon">
+                <div class="col">
+
+                    <h3>Mobile App Development</h3>
+                    <p>As a mobile app developer, I have extensive experience in designing and developing scalable,
+                        efficient, and user-friendly mobile applications using Flutter. My expertise includes [list your
+                        skills, e.g., Dart, Firebase, etc.]. I'm always excited to take on new challenges and explore
+                        the
+                        latest trends in mobile app development.</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="assets\images\1_ltjx9ze971qwtha7gko3pa-1.gif" alt="Flutter Icon" class="icon">
+                <div class="col">
+
+                    <h3>Mobile App Development</h3>
+                    <p>As a mobile app developer, I have extensive experience in designing and developing scalable,
+                        efficient, and user-friendly mobile applications using Flutter. My expertise includes [list your
+                        skills, e.g., Dart, Firebase, etc.]. I'm always excited to take on new challenges and explore
+                        the
+                        latest trends in mobile app development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Experience Section ---------------------------------------------->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+
+            <div class="job">
+                <div class="job-header">
+
+                    <div class="company-date">
+                        <h4>Tech Innovations Inc.</h4>
+                        <h3>Software Engineer</h3>
+
+                    </div>
+                    <p><strong>Start Date:</strong> January 2022 - <strong>End Date:</strong> Present</p>
+                </div>
+                <p>
+                    As a Software Engineer at Tech Innovations Inc., I have been responsible for developing and
+                    maintaining web applications using modern frameworks. My role involves collaborating with
+                    cross-functional teams to design scalable solutions, optimizing application performance, and
+                    ensuring high-quality code through rigorous testing.
+                </p>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Junior Developer</h3>
+                    <div class="company-date">
+                        <h4>Creative Solutions Ltd.</h4>
+                        <p><strong>Start Date:</strong> June 2020 - <strong>End Date:</strong> December 2021</p>
+                    </div>
+                </div>
+                <p>
+                    In my position as a Junior Developer at Creative Solutions Ltd., I assisted in the development of
+                    client-side applications and contributed to backend services. I gained experience in agile
+                    methodologies and participated in code reviews, which enhanced my coding skills and understanding of
+                    software development best practices.
+                </p>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Intern</h3>
+                    <div class="company-date">
+                        <h4>Global Tech Corp.</h4>
+                        <p><strong>Start Date:</strong> January 2020 - <strong>End Date:</strong> May 2020</p>
+                    </div>
+                </div>
+                <p>
+                    During my internship at Global Tech Corp., I supported the development team in various projects,
+                    focusing on bug fixes and feature enhancements. This experience provided me with a solid foundation
+                    in software development and introduced me to the importance of teamwork and communication in a
+                    professional setting.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section ------------------------------------------------>
     <section id="projects" class="projects" style="background-color: #000000;">
         <div class="container">
             <h2>Projects</h2>
             <div class="project-row">
                 <div class="project-container">
-                    <img src="assets\img3.jpg" alt="Project 1" class="project-image">
+                    <img src="assets\images\ddjpg.jpg" alt="Project 1" class="project-image">
                     <h3>Tickety</h3>
                     <p style="margin-right: 5px; margin-left: 5px; flex: 1; text-align: center;">Event booking app for
                         ticket
@@ -84,48 +190,9 @@
                     </button>
                 </div>
 
-
-
                 <!----------------   Space between Projects --------------------------------------------------------------------------->
                 <div class="project-container">
-                    <img src="assets\img3.jpg" alt="Project 1" class="project-image">
-                    <h3>Tickety</h3>
-                    <p style="margin-right: 5px; margin-left: 5px; flex: 1; text-align: center;">Event booking app for
-                        ticket
-                        reservations, featuring a user-
-                        friendly interface for browsing and booking events. , it ensures
-                        smooth performance and easy navigation for a seamless user
-                        experience.</p>
-                    <div style="display: flex; justify-content: space-between; width: 100%;">
-                        <ul>
-                            <li style="margin-right: 20px; flex: 1;">
-                                <img src="assets\icons\flutter.png" alt="Tool 1 Icon"
-                                    style="width: 20px; height: 20px; margin-right: 10px;">
-                                <span>Tool 1</span>
-                            </li>
-                            <li style="margin-right: 20px; flex: 1;">
-                                <img src="assets\icons\flutter.png" alt="Tool 2 Icon"
-                                    style="width: 20px; height: 20px; margin-right: 10px;">
-                                <span>Tool 2</span>
-                            </li>
-                            <li style="flex: 1;">
-                                <img src="assets\icons\flutter.png" alt="Tool 3 Icon"
-                                    style="width: 20px; height: 20px; margin-right: 10px;">
-                                <span>Tool 3</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <button class="show-repo-button">
-                        <a href=" https://www.google.com" target="_blank">
-                            Show Repo
-                        </a>
-                    </button>
-                </div>
-
-
-                <!----------------   Space between Projects --------------------------------------------------------------------------->
-                <div class="project-container">
-                    <img src="assets\img3.jpg" alt="Project 1" class="project-image">
+                    <img src="assets\images\img2.jpg" alt="Project 1" class="project-image">
                     <h3>Tickety</h3>
                     <p style="margin-right: 5px; margin-left: 5px; flex: 1; text-align: center;">Event booking app for
                         ticket
@@ -162,7 +229,44 @@
 
                 <!----------------   Space between Projects --------------------------------------------------------------------------->
                 <div class="project-container">
-                    <img src="assets\img3.jpg" alt="Project 1" class="project-image">
+                    <img src="assets/images/img3.jpg" alt="Project 1" class="project-image">
+                    <h3>Tickety</h3>
+                    <p style="margin-right: 5px; margin-left: 5px; flex: 1; text-align: center;">Event booking app for
+                        ticket
+                        reservations, featuring a user-
+                        friendly interface for browsing and booking events. , it ensures
+                        smooth performance and easy navigation for a seamless user
+                        experience.</p>
+                    <div style="display: flex; justify-content: space-between; width: 100%;">
+                        <ul>
+                            <li style="margin-right: 20px; flex: 1;">
+                                <img src="assets\icons\flutter.png" alt="Tool 1 Icon"
+                                    style="width: 20px; height: 20px; margin-right: 10px;">
+                                <span>Tool 1</span>
+                            </li>
+                            <li style="margin-right: 20px; flex: 1;">
+                                <img src="assets\icons\flutter.png" alt="Tool 2 Icon"
+                                    style="width: 20px; height: 20px; margin-right: 10px;">
+                                <span>Tool 2</span>
+                            </li>
+                            <li style="flex: 1;">
+                                <img src="assets\icons\flutter.png" alt="Tool 3 Icon"
+                                    style="width: 20px; height: 20px; margin-right: 10px;">
+                                <span>Tool 3</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="show-repo-button">
+                        <a href=" https://www.google.com" target="_blank">
+                            Show Repo
+                        </a>
+                    </button>
+                </div>
+
+
+                <!----------------   Space between Projects --------------------------------------------------------------------------->
+                <div class="project-container">
+                    <img src="assets\images\ddjpg.jpg" alt="Project 1" class="project-image">
                     <h3>Tickety</h3>
                     <p style="margin-right: 5px; margin-left: 5px; flex: 1; text-align: center;">Event booking app for
                         ticket
@@ -210,44 +314,7 @@
         </div>
     </section>
 
-    <!-- Volunteering Section -->
-    <section id="volunteering" class="volunteering">
-        <div class="container">
-            <h2>Volunteering</h2>
-            <div class="project-row">
-                <div class="project-container">
-                    <img src="assets\volunteer\GDSC.png" alt="Volunteering 1" class="project-image">
-                    <h3> Google Developer Student Clubs</h3>
-                    <p>Flutter Instructor</p>
-                    <div style="display: flex; justify-content: space-evenly; width: 100%; padding: 0 10px;">
-                        <span>From Jan 2023</span>
-                        <span>To Jun 2023</span>
-                    </div>
-                </div>
-                <!-- Add more volunteering containers as needed -->
-                <div class="project-container">
-                    <img src="assets\volunteer\GDSC.png" alt="Volunteering 1" class="project-image">
-                    <h3> Google Developer Student Clubs</h3>
-                    <p>Flutter Instructor</p>
-                    <div style="display: flex; justify-content: space-evenly; width: 100%; padding: 0 10px;">
-                        <span>From Jan 2023</span>
-                        <span>To Jun 2023</span>
-                    </div>
-                </div>
-                <!-- Add more volunteering containers as needed -->
-                <div class="project-container">
-                    <img src="assets\volunteer\GDSC.png" alt="Volunteering 1" class="project-image">
-                    <h3> Google Developer Student Clubs</h3>
-                    <p>Flutter Instructor</p>
-                    <div style="display: flex; justify-content: space-evenly; width: 100%; padding: 0 10px;">
-                        <span>From Jan 2023</span>
-                        <span>To Jun 2023</span>
-                    </div>
-                </div>
-                <!-- Add more volunteering containers as needed -->
-            </div>
-        </div>
-    </section>
+
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
@@ -293,42 +360,118 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- Volunteering Section -->
+    <section id="volunteering" class="volunteering">
         <div class="container">
-            <h2>Get in Touch</h2>
-            <form>
-                <input type="text" name="name" placeholder="Name">
-
-                <input type="email" name="email" placeholder="Email">
-                <textarea name="message" placeholder="Message"></textarea>
-                <button>Send Message</button>
-            </form>
+            <h2>Volunteering</h2>
+            <div class="project-row">
+                <div class="project-container">
+                    <img src="assets\volunteer\GDSC.png" alt="Volunteering 1" class="project-image">
+                    <h3> Google Developer Student Clubs</h3>
+                    <p>Flutter Instructor</p>
+                    <div style="display: flex; justify-content: space-evenly; width: 100%; padding: 0 10px;">
+                        <span>From Jan 2023</span>
+                        <span>To Jun 2023</span>
+                    </div>
+                </div>
+                <!-- Add more volunteering containers as needed -->
+                <div class="project-container">
+                    <img src="assets\volunteer\GDSC.png" alt="Volunteering 1" class="project-image">
+                    <h3> Google Developer Student Clubs</h3>
+                    <p>Flutter Instructor</p>
+                    <div style="display: flex; justify-content: space-evenly; width: 100%; padding: 0 10px;">
+                        <span>From Jan 2023</span>
+                        <span>To Jun 2023</span>
+                    </div>
+                </div>
+                <!-- Add more volunteering containers as needed -->
+                <div class="project-container">
+                    <img src="assets\volunteer\GDSC.png" alt="Volunteering 1" class="project-image">
+                    <h3> Google Developer Student Clubs</h3>
+                    <p>Flutter Instructor</p>
+                    <div style="display: flex; justify-content: space-evenly; width: 100%; padding: 0 10px;">
+                        <span>From Jan 2023</span>
+                        <span>To Jun 2023</span>
+                    </div>
+                </div>
+                <!-- Add more volunteering containers as needed -->
+            </div>
         </div>
     </section>
 
 
-    <!--About Me  Section ---------------------------------------------->
 
-    <section id="about-me">
-        <h2>About Me</h2>
-        <div class="about-me-content">
-          <p>I'm a [Your Profession/Student/Developer] with a passion for [Your Interest].</p>
-          <h3>What I Make</h3>
-          <ul>
-            <li>Web applications using HTML, CSS, and JavaScript</li>
-            <li>Mobile applications using [Platform]</li>
-            <li>Other projects: [List your projects]</li>
-          </ul>
-          <h3>Education</h3>
-          <ul>
-            <li>[Degree], [Field of Study], [University], [Graduation Date]</li>
-            <li>[Relevant Coursework or Training]</li>
-          </ul>
-        </div>
-      </section>
-         <!--About Me  Section ---------------------------------------------->
+
+
+
+
+    <!--About Me  Section ---------------------------------------------->
     <script src="script.js"></script>
 </body>
+
+
+
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="column">
+                <div class="social-links">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> Email: [george@example.com](mailto:george@example.com)</p>
+                    <p><i class="fas fa-phone"></i> Phone: 555-555-5555</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: 123 Main St, Anytown, USA</p>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="social-links">
+
+                    <div class="skill-container">
+                        <img src="assets/icons/flutter.png" alt="Skill 1" class="social-image">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                    <div class="skill-container">
+                        <img src="assets/icons/flutter.png" alt="Skill 1" class="social-image">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                    <div class="skill-container">
+                        <img src="assets/icons/flutter.png" alt="Skill 1" class="social-image">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p style="text-align: center;">&copy; 2024 George Esbergen , All Rights Reserved </p>
+        </div>
+    </div>
+</footer>
+
 
 </html>

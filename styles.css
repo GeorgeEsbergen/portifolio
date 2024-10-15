@@ -72,6 +72,8 @@ a:hover {
     align-items: center;
     color: #fff;
     flex-direction: row;
+
+
 }
 
 .hero .nav-logo {
@@ -94,6 +96,16 @@ a:hover {
     justify-content: center;
     margin-left: 20px;
     text-align: end;
+    margin: 0 auto;
+
+
+
+}
+
+.hero .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .hero .container button {
@@ -110,6 +122,112 @@ a:hover {
 
 .projects .project-container li {
     margin-bottom: 10px;
+}
+
+
+/***************************************************/
+/* About Me Section */
+
+#about-me {
+    background-color: #000000;
+    padding: 20px;
+    margin: 20px aut;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1400;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col {
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 250px;
+    height: 160px;
+    margin-right: 10px;
+}
+
+#about-me h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f7f7f7;
+}
+
+#about-me p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f7f7f7;
+}
+
+#about-me h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f7f7f7;
+}
+
+/***************************************************/
+/* Experince Section */
+
+.experience {
+    background-color: #000000;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience h2 {
+    text-align: start;
+    margin-bottom: 20px;
+    color: #f7f7f7;
+}
+
+.job {
+
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #ff0000;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #f7f7f7;
+}
+
+.company-date {
+    margin-left: 20px;
+}
+
+.company-date h4 {
+    margin-top: 0;
+    color: #f7f7f7;
+}
+
+.job p {
+
+    line-height: 1.5;
+    color: #f7f7f7;
 }
 
 /***************************************************/
@@ -184,6 +302,46 @@ a:hover {
 }
 
 /***************************************************/
+/* Skills Section */
+.skills {
+    background-color: #000000;
+    padding: 50px 0;
+}
+
+.skills .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    animation: zoomIn 2s;
+    /* added animation */
+}
+
+.skill-icon {
+    margin-right: 10px;
+}
+
+.skill-image {
+    width: 40px;
+    height: 40px;
+}
+
+.skill-name {
+    margin: 0;
+}
+
+/***************************************************/
+
 /* Volunteering Section */
 .volunteering {
     background-color: #000000;
@@ -240,24 +398,19 @@ a:hover {
 }
 
 /***************************************************/
-/* Skills Section */
-.skills {
-    background-color: #000000;
-    padding: 50px 0;
+
+
+
+
+
+.footer {
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-.skills .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.skill-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.skill-container {
+.footer .social-container {
     display: flex;
     align-items: center;
     margin: 20px;
@@ -265,109 +418,68 @@ a:hover {
     /* added animation */
 }
 
-.skill-icon {
-    margin-right: 10px;
+.social-image {
+    width: 20px;
+    height: 20px;
 }
 
-.skill-image {
-    width: 40px;
-    height: 40px;
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.skill-name {
-    margin: 0;
-}
-
-/***************************************************/
-/* Contact Section */
-.contact {
-    background-color: #f7f7f7;
-    padding: 50px 0;
-}
-
-.contact .container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.contact form {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact form input,
-.contact form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-}
-
-.contact form button[type="submit"] {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.contact form button[type="submit"]:hover {
-    background-color: #3e8e41;
-}
-
-/***************************************************/
-
-
-
-
-#about-me {
-    background-color: #f7f7f7;
-    padding: 20px;
-    margin: 40px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.about-me-content {
+.column {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    margin: 0 20px;
 }
 
-.about-me-content h2 {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.about-me-content p {
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
-
 }
 
-.about-me-content ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.social-links a {
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
 }
 
-.about-me-content li {
-    margin-bottom: 10px;
+.social-links a:hover {
+    color: #ccc;
 }
 
-.about-me-content li:before {
-    content: "\2022";
-    font-size: 1.5em;
-    color: #666;
+.social-links i {
+    font-size: 24px;
     margin-right: 10px;
 }
 
-/***************************************************/
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
 
 /* Animations */
 @keyframes fadeIn {
