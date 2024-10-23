@@ -1,9 +1,10 @@
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #09151a;
+
 }
 
 h1,
@@ -63,7 +64,7 @@ a:hover {
 .hero {
 
 
-    background-color: #000000;
+
     background-size: 100% 300px;
     background-position: 0% 100%;
     height: 100vh;
@@ -86,7 +87,7 @@ a:hover {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #b73333;
+    border: 3px solid #337ab7;;
     margin-left: 100px;
 }
 
@@ -129,7 +130,7 @@ a:hover {
 /* About Me Section */
 
 #about-me {
-    background-color: #000000;
+    background-color: #09151a;
     padding: 20px;
     margin: 20px aut;
     border-radius: 10px;
@@ -182,9 +183,9 @@ a:hover {
 /* Experince Section */
 
 .experience {
-    background-color: #000000;
-    padding: 20px;
-    margin: 20px 0;
+    background-color: #09151a;
+    padding: 30px;
+    margin: 20px;
     border-radius: 10px;
 
 
@@ -202,10 +203,10 @@ a:hover {
     max-width: 800px;
     margin: 0 auto;
     margin-bottom: 20px;
-    border: 1px solid;
-    padding: 20px;
+    border: 1px solid #337ab7;
+    padding: 50px;
     border-radius: 10px;
-    border-color: #ff0000;
+
 }
 
 .job-header {
@@ -223,6 +224,11 @@ a:hover {
     margin-top: 0;
     color: #f7f7f7;
 }
+.company-date h5 {
+    margin-top: 0;
+    color: #f7f7f7c5;
+}
+
 
 .job p {
 
@@ -233,13 +239,15 @@ a:hover {
 /***************************************************/
 /* Projects Section */
 .projects {
-    background-color: #f7f7f7;
+    background-color: #09151a;
     padding: 50px 0;
 }
 
 .projects .container {
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #09151a;
+
 }
 
 .projects .project-row {
@@ -251,12 +259,13 @@ a:hover {
 .projects .project-container {
     margin: 20px;
     width: 330px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #09151a;
+    border: 1px solid #337ab7;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: end;
     animation: zoomIn 2s;
+
 
     /* added animation */
 }
@@ -271,6 +280,20 @@ a:hover {
 .projects .project-container h3 {
     margin-top: 100;
     text-align: center;
+    color: #337ab7;
+}
+
+.projects .project-container span {
+    color: #f7f7f7;
+}
+
+.projects .project-container p {
+    margin-right: 5px;
+    margin-left: 5px;
+    flex: 1;
+    text-align: center;
+    color: #f7f7f7;
+
 }
 
 .projects .project-container ul {
@@ -285,10 +308,12 @@ a:hover {
 
 .projects .project-container li {
     margin-bottom: 10px;
+    margin-right: 20px;
+    flex: 1;
 }
 
 .projects .show-repo-button {
-    border: 1px solid #ff0000;
+    border: 1px solid #337ab7;
     border-radius: 5px;
     background-color: transparent;
     padding: 10px 20px;
@@ -298,13 +323,13 @@ a:hover {
 
 .projects .show-repo-button a {
     text-decoration: none;
-    color: #ff0000;
+    color: #337ab7;
 }
 
 /***************************************************/
 /* Skills Section */
 .skills {
-    background-color: #000000;
+    background-color: #09151a;
     padding: 50px 0;
 }
 
@@ -316,7 +341,7 @@ a:hover {
 .skill-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .skill-container {
@@ -324,6 +349,7 @@ a:hover {
     align-items: center;
     margin: 20px;
     animation: zoomIn 2s;
+
     /* added animation */
 }
 
@@ -338,32 +364,40 @@ a:hover {
 
 .skill-name {
     margin: 0;
+
+}
+
+.skill-name .h3 {
+    color: #f7f7f7;
 }
 
 /***************************************************/
 
 /* Volunteering Section */
 .volunteering {
-    background-color: #000000;
+    background-color: #09151a;
     padding: 50px 0;
 }
 
 .volunteering .container {
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
-.volunteering .project-row {
+.volunteering .volunteering-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.volunteering .project-container {
-    justify-content: center;
+.volunteering .volunteering-container {
+    justify-content: space-between;
     margin: 20px;
     width: 350px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: transparent;
     border: 1px solid #ddd;
     border-color: #337ab7;
@@ -373,28 +407,39 @@ a:hover {
     /* added animation */
 }
 
-.volunteering .project-container img {
+.volunteering .volunteering-container img {
     width: 50px;
     height: 50px;
     object-fit: contain;
     text-align: center;
     padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
-.volunteering .project-container h3 {
+.volunteering .volunteering-container h5 {
     margin-top: 0;
     text-align: center;
+    color: #ffffffcd;
+    margin-bottom: 20px;
+
+
+
+
 }
 
-.volunteering .project-container p {
+.volunteering .volunteering-container p {
     text-align: center;
-    color: #fff;
+    color: #337ab7;
+    ;
+    margin-bottom: 20px;
+
 }
 
-.volunteering .project-container span {
+.volunteering .volunteering-container span {
     margin-top: 0;
-    color: #ff0000;
-    padding-bottom: 15px;
+    color: #ffffffcd;
+    padding-bottom: 40px;
 }
 
 /***************************************************/
@@ -404,24 +449,19 @@ a:hover {
 
 
 .footer {
-    background-color: #0d0d0d;
-    color: #fff;
+    background-color: #09151a;
     padding: 20px;
-    text-align: center;
+
 }
 
 .footer .social-container {
     display: flex;
-    align-items: center;
+
     margin: 20px;
     animation: zoomIn 2s;
     /* added animation */
 }
 
-.social-image {
-    width: 20px;
-    height: 20px;
-}
 
 
 
@@ -429,50 +469,70 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0 20px;
-}
 
-.social-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
+    margin: 0 20px;
+    justify-content: space-between;
 }
 
 .social-links a {
-    margin: 10px 0;
-    color: #fff;
     text-decoration: none;
+    color: #f7f7f7;
+    /* Default text color */
+    margin: 0 10px;
+    /* Space between icons */
+    display: flex;
+    /* Aligns items in a row */
+    align-items: center;
+    /* Centers items vertically */
+    display: flex;
+    margin-bottom: 20px;
+
 }
 
-.social-links a:hover {
-    color: #ccc;
+.social-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
+
+
+
+
+.social-links a:hover {
+    color: #007bff;
+    /* Change color on hover */
+}
+
 
 .social-links i {
     font-size: 24px;
     margin-right: 10px;
 }
 
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
 .contact-info p {
     margin-bottom: 10px;
+    color: #f7f7f7;
 }
 
 .contact-info i {
     margin-right: 10px;
+}
+
+.hr {
+    border: 1px solid;
+    color: #666;
+    ;
+    /* Change color and thickness */
+    width: 80%;
+    /* Change width */
+
+    /* Center the line with margin */
 }
 
 .copyright {
@@ -480,6 +540,7 @@ a:hover {
     color: #666;
     text-align: center;
 }
+
 
 /* Animations */
 @keyframes fadeIn {
