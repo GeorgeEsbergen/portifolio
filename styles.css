@@ -23,7 +23,7 @@ a:hover {
 }
 
 .nav-bar {
-    background-color: #151515;
+    background-color: #0f222b;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -87,7 +87,8 @@ a:hover {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #337ab7;;
+    border: 3px solid #337ab7;
+    ;
     margin-left: 100px;
 }
 
@@ -125,6 +126,80 @@ a:hover {
     margin-bottom: 10px;
 }
 
+
+
+
+
+
+/***************************************************/
+/* Education Section */
+
+.education {
+    background-color: #09151a;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+    text-align: start;
+    margin-bottom: 20px;
+    color: #f7f7f7;
+}
+
+.job {
+
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid #337ab7;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #f7f7f7;
+}
+
+.company-date {
+    margin-left: 20px;
+}
+
+.company-date h4 {
+    margin-top: 0;
+    color: #f7f7f7;
+}
+
+.company-date h5 {
+    margin-top: 0;
+    color: #f7f7f7c5;
+}
+
+
+.job p {
+
+    line-height: 1.5;
+    color: #f7f7f7;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
 
 /***************************************************/
 /* About Me Section */
@@ -224,6 +299,7 @@ a:hover {
     margin-top: 0;
     color: #f7f7f7;
 }
+
 .company-date h5 {
     margin-top: 0;
     color: #f7f7f7c5;
