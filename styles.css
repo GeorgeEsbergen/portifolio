@@ -147,7 +147,8 @@ a:hover {
 .education h2 {
     text-align: start;
     margin-bottom: 20px;
-    color: #ffffffc7;;
+    color: #ffffffc7;
+    ;
 }
 
 .job {
@@ -231,7 +232,7 @@ a:hover {
 
 .icon {
     width: 250px;
-    height: 160px;
+    height: 180px;
     margin-right: 10px;
 }
 
@@ -361,7 +362,8 @@ a:hover {
 }
 
 .projects .project-container span {
-    color: #ffffffc7;;
+    color: #ffffffc7;
+    ;
 }
 
 .projects .project-container p {
