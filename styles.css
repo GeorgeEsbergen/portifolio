@@ -326,7 +326,94 @@ a:hover {
     margin: 0 auto;
     background-color: #09151a;
 
+
 }
+
+
+
+
+
+
+.projects .project-container {
+    margin: 20px;
+    width: 330px;
+    height: 450px;
+    background-color: #09151a;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: end;
+    animation: zoomIn 2s;
+    /* added animation */
+}
+
+
+.card {
+    width: 330px;
+    height: 450px;
+    /* Adjust height as needed */
+    position: relative;
+    transform-style: preserve-3d;
+    /* Allows for 3D transformations */
+    transition: transform 0.6s;
+    border-radius: 10px;
+    border: 1px solid #0092CC;
+    /* Smooth transition for rotation */
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+    /* Rotate on hover */
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    /* Hides the back when facing front */
+    border-radius: 10px;
+
+    /* Matches the front card's border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-front {
+    background-color: #09151a;
+    /* Front card background */
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: 1px solid red;
+    /* Front card text color */
+}
+
+.card-back {
+
+    /* Back card background */
+    color: #ffffff;
+    /* Back card text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    /* Initially hide the back */
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    /* Stack items in a column */
+    align-items: center;
+    /* Center items horizontally */
+}
+
+.card-back h2 {
+    font-size: 24px;
+    /* Adjust size as needed */
+}
+
 
 .projects .project-row {
     display: flex;
@@ -334,19 +421,6 @@ a:hover {
     justify-content: center;
 }
 
-.projects .project-container {
-    margin: 20px;
-    width: 330px;
-    background-color: #09151a;
-    border: 1px solid #0092CC;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: end;
-    animation: zoomIn 2s;
-
-
-    /* added animation */
-}
 
 .projects .project-container img {
     width: 100%;
@@ -406,6 +480,9 @@ a:hover {
     text-decoration: none;
     color: #0092CC;
 }
+
+
+
 
 /***************************************************/
 /* Skills Section */
