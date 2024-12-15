@@ -604,25 +604,19 @@ a:hover {
 
 
 
-
-
+/* Basic Footer Styling */
 .footer {
     background-color: #09151a;
     padding: 20px;
-
 }
 
 .footer .social-container {
     display: flex;
-
     margin: 20px;
     animation: zoomIn 2s;
-    /* added animation */
 }
 
-
-
-
+/* Footer Content */
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -630,27 +624,22 @@ a:hover {
     margin-top: 20px;
 }
 
+/* Columns for smaller layouts */
 .column {
     display: flex;
     flex-direction: column;
-
     margin: 0 20px;
     justify-content: space-between;
 }
 
+/* Social Links */
 .social-links a {
     text-decoration: none;
     color: #f7f7f7;
-    /* Default text color */
     margin: 0 10px;
-    /* Space between icons */
     display: flex;
-    /* Aligns items in a row */
     align-items: center;
-    /* Centers items vertically */
-    display: flex;
     margin-bottom: 20px;
-
 }
 
 .social-image {
@@ -659,20 +648,18 @@ a:hover {
     margin-right: 10px;
 }
 
-
-
-
+/* Hover effects */
 .social-links a:hover {
     color: #007bff;
-    /* Change color on hover */
 }
 
-
+/* Icon styles */
 .social-links i {
     font-size: 24px;
     margin-right: 10px;
 }
 
+/* Contact Info */
 .contact-info p {
     margin-bottom: 10px;
     color: #ffffffc7;
@@ -682,21 +669,78 @@ a:hover {
     margin-right: 10px;
 }
 
+/* Horizontal Line */
 .hr {
-    border: 1px solid;
-    color: #666;
-    ;
-    /* Change color and thickness */
+    border: 1px solid #666;
     width: 80%;
-    /* Change width */
-
-    /* Center the line with margin */
+    margin: 20px auto;
 }
 
+/* Copyright */
 .copyright {
     font-size: 14px;
     color: #666;
     text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center; /* Center content */
+        text-align: center;
+    }
+
+    .social-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .column {
+        margin: 10px 0;
+        align-items: center; /* Center columns */
+    }
+
+    .social-links a {
+        margin: 5px 0;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .hr {
+        width: 90%;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .footer-content {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .social-links i {
+        font-size: 20px;
+    }
+
+    .social-container {
+        margin: 5px 0;
+    }
+
+    .column {
+        margin: 5px 0;
+        align-items: center; /* Center columns */
+    }
 }
 
 
